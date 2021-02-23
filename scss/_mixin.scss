@@ -1,0 +1,22 @@
+%basic{
+    line-height: 20px;
+    border: none;
+    outline: none;
+    padding: 10px 30px;
+    border-radius: 20px;
+    background-color: $hoverColor;
+    color: $whiteColor;
+    text-align: center;
+    transition: 0.3s;
+}
+@mixin hoverEffects{
+    transform: translateY(-7px);
+    background-color: rgba(255, 255, 255, 0.8);
+    color: $darkColor;
+    box-shadow: 0px 6px 10px 5px rgba(255, 255, 255, 0.4);
+}
+@mixin  flex-box {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
